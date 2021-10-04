@@ -1,0 +1,44 @@
+body {   
+     background: linear-gradient(purple, pink);
+    text-align: center;
+}
+img{
+    width : 346px;
+    height: 304px;
+    border: none;
+}
+table{
+     border: 2px solid darkcyan;
+     border-collapse: collapse;
+     width : 1850px;
+     height: 900px;
+     text-align: center;
+     margin: auto;
+}
+td:hover {
+    width : 400px;
+    height: 400px;
+  }
+td,tr{
+        font-size: 40px;
+    border: 2px solid darkcyan;
+}
+tr {
+    width : 100px;
+    height: 100px;
+}
+  
+h1 {
+    font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(pink , blue );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 5px auto;
+}
+h1:hover {
+  font-size: 100px;
+}
